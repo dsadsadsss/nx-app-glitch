@@ -1,0 +1,30 @@
+{
+  "name": "nx-app-server",
+  "version": "1.0.0",
+  "description": "Node.js server for Glitch that downloads and launches nx-app binary",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "engines": {
+    "node": "14.x"
+  },
+  "keywords": [
+    "glitch",
+    "server",
+    "http",
+    "nx-app"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "http": "0.0.1-security",
+    "https": "^1.0.0",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
